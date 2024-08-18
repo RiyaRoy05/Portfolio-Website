@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
-import project7  from "../assets/projects/project-6.jpg";
+import project7  from "../assets/projects/project-7.jpg";
 
 export const HERO_CONTENT = `I am a passionate React.js developer with 3 months of experience, skilled in HTML, CSS, React JS, and Angular. My technical expertise extends to Python, Django, C, C++, Java, and Android, along with database management in MySQL and MongoDB. I possess strong dedication, leadership, communication, interpersonal skills, and adaptability. Additionally, I am proficient in operating systems such as Microsoft Windows and Linux. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
