@@ -3,11 +3,12 @@ import { RiReactjsFill } from "react-icons/ri";
 import { RiJavascriptFill } from "react-icons/ri";
 import { RiHtml5Fill } from "react-icons/ri";
 import { RiAngularjsLine } from "react-icons/ri";
-import { SiPython } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
-import { SiMongodb } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 import { RiBootstrapFill } from "react-icons/ri";
 import { animate, motion } from 'framer-motion';
+import { SiVite } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -54,11 +55,27 @@ const Technologies = () => {
             </motion.div>
 
             <motion.div 
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiVite className='text-7xl text-purple-900'/>
+            </motion.div>
+
+            <motion.div 
             variants={iconVariants(3.5)}
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
             <RiHtml5Fill className='text-7xl text-orange-400'/>
+            </motion.div>
+
+            <motion.div 
+            variants={iconVariants(3)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+            <FaPython className='text-7xl text-blue-500'/>
             </motion.div>
 
             <motion.div 
@@ -74,7 +91,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiPython className='text-7xl text-blue-400'/>
+            <FaVuejs className='text-7xl text-green-600'/>
             </motion.div>
 
             <motion.div 
@@ -82,15 +99,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className="rounded-2xl border-4 border-neutral-800 p-4">
-            <GrMysql className='text-7xl text-blue-800'/>
-            </motion.div>
-
-            <motion.div 
-            variants={iconVariants(3)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-            <SiMongodb className='text-7xl text-green-800'/>
+            <SiTailwindcss className='text-7xl text-blue-600'/>
             </motion.div>
 
             <motion.div 
