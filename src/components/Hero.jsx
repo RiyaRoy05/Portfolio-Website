@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profile from'../assets/riya.jpg';
+import profile from'../assets/riya.png';
 import { delay, motion } from "framer-motion"
 
 const container = (delay) => ({
@@ -27,7 +27,7 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible"
                     className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-                        Software Developer
+                        Software Developer | Full-Stack Developer
                     </motion.span>
                     <motion.p 
                     variants={container(1)}
@@ -45,8 +45,9 @@ const Hero = () => {
                     initial={{ x: 100, opacity:0 }}
                     animate={{ x: 0, opacity: 1}}
                     transition={{ duration: 1, delay: 1.2 }}
-                    className='rounded-2xl' 
-                    src={profile} alt="Riya Profile" />
+                    className="rounded-xl"  
+                    src={profile} alt="Riya Profile" 
+                    style={{height:'500px', width:'420px'}}/>
                 </div>
             </div>
         </div>

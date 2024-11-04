@@ -2,13 +2,13 @@ import React from 'react'
 import { RiReactjsFill } from "react-icons/ri";
 import { RiJavascriptFill } from "react-icons/ri";
 import { RiHtml5Fill } from "react-icons/ri";
-import { RiAngularjsLine } from "react-icons/ri";
 import { FaVuejs } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiDjango, SiTailwindcss } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { RiBootstrapFill } from "react-icons/ri";
 import { animate, motion } from 'framer-motion';
 import { SiVite } from "react-icons/si";
+import { DiDjango } from 'react-icons/di';
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -69,23 +69,7 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
             <RiHtml5Fill className='text-7xl text-orange-400'/>
             </motion.div>
-
-            <motion.div 
-            variants={iconVariants(3)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-            <FaPython className='text-7xl text-blue-500'/>
-            </motion.div>
-
-            <motion.div 
-            variants={iconVariants(4)}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-            <RiAngularjsLine className='text-7xl text-red-800'/>
-            </motion.div>
-
+  
             <motion.div 
             variants={iconVariants(4)}
             initial="initial"
@@ -94,6 +78,14 @@ const Technologies = () => {
             <FaVuejs className='text-7xl text-green-600'/>
             </motion.div>
 
+            <motion.div 
+            variants={iconVariants(3)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+            <FaPython className='text-7xl text-blue-500'/>
+            </motion.div>
+            
             <motion.div 
             variants={iconVariants(3.5)}
             initial="initial"
@@ -109,6 +101,15 @@ const Technologies = () => {
             className="rounded-2xl border-4 border-neutral-800 p-4">
             <RiBootstrapFill className='text-7xl text-purple-600'/>
             </motion.div>
+
+            <motion.div 
+            variants={iconVariants(2.5)}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+            <SiDjango className='text-7xl text-green-900'/>
+            </motion.div>
+
         </motion.div>
     </div>
   )
