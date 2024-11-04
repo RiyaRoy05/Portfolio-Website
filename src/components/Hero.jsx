@@ -47,7 +47,7 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 1.2 }}
                     className="rounded-xl"  
                     src={profile} alt="Riya Profile" 
-                    style={{height:'500px', width:'420px'}}/>
+                    style={{width:'420px'}}/>
                 </div>
             </div>
         </div>
